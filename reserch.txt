@@ -1,6 +1,6 @@
 // d for laser attack
 window.addEventListener("keydown", checkKeyPressed, false); function checkKeyPressed(l) { if (l.keyCode == "68" ) {drawline()}};
-
+b = Runner.instance_.clearCanvas;
 function drawline() {
 if (Runner.instance_.horizon.obstacles.length>0){
 Runner.instance_.clearCanvas=function(){};
