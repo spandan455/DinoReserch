@@ -1,6 +1,9 @@
 // d for laser attack
+//command 1
 window.addEventListener("keydown", checkKeyPressed, false); function checkKeyPressed(l) { if (l.keyCode == "68" ) {drawline()}};
 b = Runner.instance_.clearCanvas;
+
+//command 2
 function drawline() {
 if (Runner.instance_.horizon.obstacles.length>0){
 Runner.instance_.clearCanvas=function(){};
@@ -12,11 +15,12 @@ setTimeout(function(){Runner.instance_.clearCanvas = b;}, 15);
 Runner.instance_.horizon.removeFirstObstacle();}}
 
 // s for run fast
-
+// command 3
 let speedm = 0
 
 window.addEventListener("keydown", checkKeyPressed, false); function checkKeyPressed(l) { if (l.keyCode == "83" ) {chgSpd()}};
 
+//command 4
 function chgSpd() {
 if (speedm == 0){
 Runner.instance_.setSpeed(1000)
