@@ -1,7 +1,7 @@
 
 # Dino Reserch
 
-Let's have some reserch about our dear dino!
+Let's have some reserch about our dear dino! 
 
 ## 🚀 Getting Started
 
